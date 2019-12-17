@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "es"
-title = "Encuentro de Egresados de Ciencia de la Computacion"
+title = "I Encuentro de Egresados de Ciencia de la Computacion"
 theme = "ananke"
 themesDir = "./themes"
 

@@ -1,12 +1,4 @@
----
-title: Ponencias
-layout: landing
-description: 'Ponencias a presentarse en el evento'
-image: assets/images/publicidad.jpeg
-nav-menu: true
----
-
-<!-- Main -->
+I"û<!-- Main -->
 <div id="main">
 
 <!-- One -->
@@ -85,3 +77,4 @@ nav-menu: true
 </section>
 
 </div>
+:ET

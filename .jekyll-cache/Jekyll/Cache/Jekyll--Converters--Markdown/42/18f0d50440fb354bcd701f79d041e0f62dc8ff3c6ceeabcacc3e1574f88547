@@ -1,27 +1,15 @@
----
-title: Ponencias y Ponentes
-layout: landing
-description: 'Ponencias a presentarse en el evento'
-image: ../assets/images/trux.jpg
-permalink: '/ponencias/'
-nav-menu: true
----
-
-<!-- Main -->
-<div id="main">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Ponencias y Ponentes</h2>
-		</header>
-		<p>El presente evento muestra el trabajo a ser expuesto durante el evento, ademas de quienes (los ponentes) seran los expositores, haciendo enfasis en su biografia o carrera</p>
-	</div>
-</section>
-
-<!-- Two -->
-<div id="future">
+I"1<h4>Cronograma - 20 de Diciembre del 2019</h4>
+<div class="table-wrapper">
+	<table>
+		<thead>
+			<tr>
+				<th>Hora</th>
+				<th>Evento</th>
+			</tr>
+		</thead>
+		<tbody id="tableCron">
+		</tbody>
+	</table>
 </div>
 
 <script type="text/javascript">
@@ -31,7 +19,7 @@ function populateThis(data){
 	let expositorName = "";
 	let topic = "";
 	let bio = "";
-	let templateText = '<section id="two" class="spotlights">\n';
+	let templateText = ""
 	let fullBioLink = "";
 
 	let current = null;
@@ -65,4 +53,4 @@ function populateThis(data){
 loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/a12f828b7b75afe8d42fdf15e054489be64e939e/ponentes.JSON");
 </script>
 
-</div>
+:ET

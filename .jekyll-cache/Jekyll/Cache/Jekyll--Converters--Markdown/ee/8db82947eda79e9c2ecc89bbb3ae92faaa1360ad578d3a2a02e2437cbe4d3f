@@ -1,13 +1,4 @@
----
-layout: post
-title: Cronograma
-description: Cronograma del Evento
-image: 
-nav-menu: true
-permalink : '/cronograma/'
----
-
-<h4>Cronograma - 20 de Diciembre del 2019</h4>
+I"Ü<h4>Cronograma - 20 de Diciembre del 2019</h4>
 <div class="table-wrapper">
 	<table>
 		<thead>
@@ -36,8 +27,8 @@ function populateThis(data){
 	for (let ii = 0; ii < data.length; ii++){
 		current = data[ii]
 
-		hora = current["0"];
-		evento = current["1"];
+		hora = current.Foto;
+		evento = current.Nombre
 
 		templateText += '<tr>\n    <td>';
 		templateText += hora
@@ -45,10 +36,12 @@ function populateThis(data){
 		templateText += evento;
 		templateText += '</td>\n</tr>';
 	}
-	document.querySelector('#tableCron').innerHTML = templateText
+
+	templateText += '</section>';
+	document.querySelector('#future').innerHTML = templateText
 }
 
-loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/5b7b2023f6acc57e4324499d7e31f25e4ad0803a/cronograma.JSON");
+loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/a12f828b7b75afe8d42fdf15e054489be64e939e/ponentes.JSON");
 </script>
 
-
+:ET

@@ -1,13 +1,4 @@
----
-title: Ponencias y Ponentes
-layout: landing
-description: 'Ponencias a presentarse en el evento'
-image: ../assets/images/trux.jpg
-permalink: '/ponencias/'
-nav-menu: true
----
-
-<!-- Main -->
+I"ô<!-- Main -->
 <div id="main">
 
 <!-- One -->
@@ -21,8 +12,23 @@ nav-menu: true
 </section>
 
 <!-- Two -->
-<div id="future">
-</div>
+<section id="two" class="spotlights">
+
+			<div class="content">
+					<div class="inner">
+							<header class="major">
+									<h3>Hans Murrugarra Llerena</h3>
+							</header>
+							<h6><b>Ponencia</b></h6>
+							<header class="major">
+									<h4 stlye="text-align:left;">Clasificaci√≥n de Galaxias con redes convolucionales</h4>
+							</header>
+							<p>Estudiante de Maestria en Ciencias de la Computacion en el (IME-USP)</p>
+					</div>
+			</div>
+	</section>
+
+&lt;/section&gt;
 
 <script type="text/javascript">
 
@@ -31,7 +37,7 @@ function populateThis(data){
 	let expositorName = "";
 	let topic = "";
 	let bio = "";
-	let templateText = '<section id="two" class="spotlights">\n';
+	let templateText = "";
 	let fullBioLink = "";
 
 	let current = null;
@@ -58,11 +64,11 @@ function populateThis(data){
 		templateText += '</p>\n\t\t</div>\n\t</div>\n</section>\n'	
 	}
 
-	templateText += '</section>';
-	document.querySelector('#future').innerHTML = templateText
+	document.querySelector('#two').innerHTML = templateText
 }
 
 loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/a12f828b7b75afe8d42fdf15e054489be64e939e/ponentes.JSON");
 </script>
 
 </div>
+:ET

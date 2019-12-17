@@ -48,7 +48,6 @@ function populateThis(data){
 	document.querySelector('#tableCron').innerHTML = templateText
 }
 
-loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/5b7b2023f6acc57e4324499d7e31f25e4ad0803a/cronograma.JSON");
+loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/dbf3f49fd98741e95af7681adde7b83eb7daabaf/cronograma.JSON");
 </script>
-
 

@@ -1,12 +1,4 @@
----
-title: Ponentes y Ponencias
-layout: landing
-description: 'Ponencias a presentarse en el evento'
-image: ../assets/images/trux.jpg
-permalink: '/ponencias/'
-nav-menu: true
----
-
+I"8
 <!-- Main -->
 <div id="main">
 
@@ -54,16 +46,31 @@ function populateThis(data){
 					<header class="major">
  						<h3>${expositorName}</h3>
 					</header>
+					<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 					<h6><b>Ponencia</b></h6>
-					<header class="minor">
-						<h4 stlye="text-align:left;">${topic}</h4>
+					<header class="major">
+						<h4 stlye="text-align:left;">Freelancer, Emprendedor o Colaborador. ¿Que debo ser?</h4>
 					</header>
-					<p>${bio}</p>
+					<p>Desarrollador Web y Salesforce</p>
 				</div>
 			</div>
 		</section>`
 
 		templateText += altTemp
+
+		// templateText += '<section>\n\t<a href="'
+		// templateText += fullBioLink
+		// templateText += '" class="image">\n\t\t<img src="'
+		// templateText += imageURL;
+		// templateText += '" alt="" data-position="center center" />\n\t<div class="content">\n\t\t<div class="inner">\n\t\t\t<header class="major">\n\t\t\t\t<h3>';
+		// templateText += expositorName;
+		// templateText += '</h3>\n\t\t\t</header>\n\t\t\t<h6><b>Ponencia</b></h6>\n\t\t\t<header class="major">\n\t\t\t\t<h4 stlye="text-align:left;">'
+		// templateText += topic
+		// templateText += '</h4>\n\t\t\t</header>\n\t\t\t<p>'
+		// templateText += bio
+		// templateText += '</p>\n\t\t</div>\n\t</div>\n</section>\n'
+
+		console.log(templateText)	
 	}
 
 	templateText += '</section>';
@@ -74,3 +81,4 @@ loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b
 </script>
 
 </div>
+:ET

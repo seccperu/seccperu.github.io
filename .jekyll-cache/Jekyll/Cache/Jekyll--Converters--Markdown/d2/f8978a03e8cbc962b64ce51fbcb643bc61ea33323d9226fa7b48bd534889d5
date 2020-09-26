@@ -1,13 +1,4 @@
----
-title: Ponentes y Ponencias
-layout: landing
-description: 'Ponencias a presentarse en el evento'
-image: ../assets/images/trux.jpg
-permalink: '/ponencias/'
-nav-menu: true
----
-
-<!-- Main -->
+I"Ï<!-- Main -->
 <div id="main">
 
 <!-- One -->
@@ -64,6 +55,20 @@ function populateThis(data){
 		</section>`
 
 		templateText += altTemp
+
+		// templateText += '<section>\n\t<a href="'
+		// templateText += fullBioLink
+		// templateText += '" class="image">\n\t\t<img src="'
+		// templateText += imageURL;
+		// templateText += '" alt="" data-position="center center" />\n\t<div class="content">\n\t\t<div class="inner">\n\t\t\t<header class="major">\n\t\t\t\t<h3>';
+		// templateText += expositorName;
+		// templateText += '</h3>\n\t\t\t</header>\n\t\t\t<h6><b>Ponencia</b></h6>\n\t\t\t<header class="major">\n\t\t\t\t<h4 stlye="text-align:left;">'
+		// templateText += topic
+		// templateText += '</h4>\n\t\t\t</header>\n\t\t\t<p>'
+		// templateText += bio
+		// templateText += '</p>\n\t\t</div>\n\t</div>\n</section>\n'
+
+		console.log(templateText)	
 	}
 
 	templateText += '</section>';
@@ -74,3 +79,4 @@ loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b
 </script>
 
 </div>
+:ET

@@ -54,7 +54,10 @@ function populateThis(data){
 	document.querySelector('#tableCron').innerHTML = templateText
 }
 
+<<<<<<< HEAD
 loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/7fb964867c77c0017232378f5059ba0d1fa610e7/cronograma.JSON");
+=======
+loadJSON(populateThis, "https://gist.githubusercontent.com/seccperu/03c78edf094b280e6011648f9c0d3bbd/raw/dbf3f49fd98741e95af7681adde7b83eb7daabaf/cronograma.JSON");
+>>>>>>> 85a65dfbe18e86de62ae36d225d667bb951f4511
 </script>
-
 
